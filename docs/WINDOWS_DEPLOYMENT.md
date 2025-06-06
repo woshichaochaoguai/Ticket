@@ -111,5 +111,7 @@ For production deployments, you may want to run the services in the background u
 - Check the console output for errors when starting either service.
 - If you see `ImportError: attempted relative import with no known parent package`,
   confirm that `backend/__init__.py` exists and you have pulled the latest code.
+  You can run the server from the `backend` folder with `set FLASK_APP=app.py`
+  or from the repository root with `set FLASK_APP=backend.app`.
 
 With these steps, you should have a working instance of the AI Support Assistant on Windows Server 2012.

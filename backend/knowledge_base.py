@@ -3,7 +3,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 # Avoid package-relative imports so the module works when executed
 # directly via `flask run` from the backend folder.
-import utils
+from . import utils
 
 
 class KnowledgeBase:

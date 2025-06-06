@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from gemini_client import GeminiClient
-from knowledge_base import KnowledgeBase
+from .gemini_client import GeminiClient
+from .knowledge_base import KnowledgeBase
 import os
 
 app = Flask(__name__)
