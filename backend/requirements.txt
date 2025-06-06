@@ -1,0 +1,8 @@
+Flask
+Flask-Cors
+google-generativeai
+python-dotenv
+scikit-learn
+python-docx
+pandas
+openpyxl
