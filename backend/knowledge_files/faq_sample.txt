@@ -1,0 +1,2 @@
+Q: How to reset NAS?
+A: Press and hold the reset button for 10 seconds.
