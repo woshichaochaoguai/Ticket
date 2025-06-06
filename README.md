@@ -1,3 +1,4 @@
+# Ticket
 # 海外NAS技术支持AI助手
 
 本仓库提供了一个完整的前后端示例，用于构建AI辅助的工单处理工具。项目基于React和Flask实现，依赖Google Gemini Pro API进行文本摘要、分析与回复生成。
