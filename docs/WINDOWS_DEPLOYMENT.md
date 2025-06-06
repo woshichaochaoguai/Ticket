@@ -63,6 +63,11 @@ Otherwise, you can manually download and extract the project.
    pip install -r requirements.txt
    ```
 
+4. Verify that the repository is up to date and that the file `__init__.py`
+   exists in the `backend` folder. This file marks the folder as a Python
+   package so that imports work correctly when running `flask` directly from
+   this directory.
+
 ## 4. Launch the Back-end Service
 
 Run these commands from the `backend` directory:
@@ -104,6 +109,8 @@ For production deployments, you may want to run the services in the background u
 - If ports 5001 or 3000 are blocked by a firewall, open them in Windows Firewall settings.
 - Use `pip list` and `npm list` to verify installed packages.
 - Check the console output for errors when starting either service.
+- If you see `ImportError: attempted relative import with no known parent package`,
+  confirm that `backend/__init__.py` exists and you have pulled the latest code.
 
 With these steps, you should have a working instance of the AI Support Assistant on Windows Server 2012.
 
